@@ -1,0 +1,168 @@
+body{
+
+}
+h1, button{
+    text-transform: uppercase;
+}
+p,h1,h2,h3{
+    color: white;
+}
+.hed{
+    overflow: hidden;
+    padding: 25px 0 25px 0;
+    background: #30323f;
+}
+.logo>a>img{
+   display: block;
+    margin: 0 auto;
+}
+.phone{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.button{
+    text-align: center;
+}
+.button>button{
+    color: white;
+    border: 3px solid white;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: -5px;
+}
+.body{
+    padding-top: 120px;
+    padding-left: 30px;
+    background: #576071;
+}
+.body>button{
+    height: 40px;
+    width: 130px;
+    color: #30323f;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: large;
+
+}
+.action{
+    overflow: hidden;
+    background: #212e3e;
+    position: relative;
+}
+.stars{
+    height: 125px;
+    width: 125px;
+    background:#212e3e;
+    text-align: center;
+    border-radius: 65px;
+    border:  8px solid #ff3e66;
+    position: absolute;
+    color:#ff3e66;
+    padding-top: 15px;
+    left: 45%;
+    top:95px;
+}
+
+.border{
+    overflow: hidden;
+    border: 8px solid #ff3e66;
+    margin: 150px 30px 150px 30px;
+    padding: 100px 20px;
+}
+form{
+padding: 0 50px;
+}
+form>button{
+    width: 100%;
+}
+.services{
+    background: #343a54;
+    overflow: hidden;
+
+}
+.services>div{
+    margin: 80px 30px;
+}
+.services>div:nth-child(1)>h1,.services>div:nth-child(1)>h3{
+    padding: 0 10%;
+    text-align: center;
+}
+.click{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background: #ff3e66;
+    margin: auto;
+}
+.click:hover{
+
+    background: red;
+}
+.click+p{
+    text-align: center;
+}
+.summary{
+    background: #586979;
+    overflow: hidden;
+}
+.summary>h2{
+    margin-top: 100px;
+    text-align: center;
+}
+.summary>div{
+    margin: 25px 0;
+}
+
+.photo{
+    height: 200px;
+    margin: 10px;
+    border: 8px solid white;
+    background: grey;
+
+}
+.photo:hover{
+    border: 10px solid yellow;;
+}
+.summary>.row{
+    margin-bottom: 150px;
+}
+
+@media (max-width: 768px) {
+    .body>h1{
+        font-size: x-large;
+    }
+    .phone{
+        font-size: larger;
+    }
+}
+
+@media (max-width: 426px) {
+    .phone{
+        margin-bottom:10px ;
+        font-size: x-large;
+    }
+    .stars {
+        left: 35%;
+    }
+    form{
+        padding: 0;
+    }
+}
+@media (max-width: 370px){
+    body{
+        text-align: center;
+    }
+    .body>h1{
+        font-size: large;
+    }
+    .stars{
+        left: 28%;
+    }
+    button.btn.btn-warning{
+        font-size: 75%;
+    }
+    .services>div{
+        margin: 40px 0;
+    }
+}
